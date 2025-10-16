@@ -17,34 +17,34 @@ const ConnectorApp = () => {
     }
   ];
 
-  const infoLinks = [
-    { name: "Docs", href: "/docs" },
-    { name: "Stats", href: "/stats" },
-    { name: "Blog", href: "/blog" },
-    { name: "Uses TradingView", href: "/tradingview" },
-    { name: "Terms Of Use", href: "/terms" },
-    { name: "Brand Assets", href: "/brand" }
+const infoLinks = [
+    { name: "Docs", href: "/wallet" },
+    { name: "Stats", href: "/wallet" },
+    { name: "Blog", href: "/wallet" },
+    { name: "Uses TradingView", href: "/wallet" },
+    { name: "Terms Of Use", href: "/wallet" },
+    { name: "Brand Assets", href: "/wallet" }
   ];
 
   const govLinks = [
-    { name: "Proposals", href: "/proposals" },
-    { name: "Voting", href: "/voting" },
-    { name: "Voting Power", href: "/voting-power" },
-    { name: "Legacy DHT", href: "/legacy-dht" }
+    { name: "Proposals", href: "/wallet" },
+    { name: "Voting", href: "/wallet" },
+    { name: "Voting Power", href: "/wallet" },
+    { name: "Legacy DHT", href: "/wallet" }
   ];
 
   const devLinks = [
-    { name: "GitHub", href: "https://github.com/dhedge" },
-    { name: "Audit", href: "/audit" },
-    { name: "Bug Bounty", href: "/bug-bounty" },
-    { name: "@dhedge/v2-sdk", href: "https://www.npmjs.com/package/@dhedge/v2-sdk" }
+    { name: "GitHub", href: "/wallet" },
+    { name: "Audit", href: "/wallet" },
+    { name: "Bug Bounty", href: "/wallet" },
+    { name: "@dhedge/v2-sdk", href: "/wallet" }
   ];
 
   const socialLinks = [
-    { icon: "💬", name: "Discord", href: "/discord" },
-    { icon: "💬", name: "Telegram", href: "/telegram" },
-    { icon: "💬", name: "Twitter", href: "/twitter" },
-    { icon: "💬", name: "Medium", href: "/medium" }
+    { icon: "💬", name: "Discord", href: "/wallet" },
+    { icon: "💬", name: "Telegram", href: "/wallet" },
+    { icon: "💬", name: "Twitter", href: "/wallet" },
+    { icon: "💬", name: "Medium", href: "/wallet" }
   ];
 
   return (
