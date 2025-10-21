@@ -14,13 +14,7 @@ const App = () => {
    
      
         <Progress />
-    
-      
-        <Eco />
-     
-        <ConnectorApp />
-    
-        <Footer />
+  
       
     </>
   );
